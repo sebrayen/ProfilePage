@@ -1,0 +1,234 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
+
+#navbar-wrapper {
+    background-color: black;
+    height: 50px;
+}
+
+#navbar {
+    background-color: black;
+    height: 50px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto; 
+}
+
+#leftnav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#leftnav h1 {
+    color: white;
+}
+
+#leftnav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+}
+
+#leftnav ul li {
+    list-style-type: none;
+}
+
+#leftnav a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+#leftnav .active {
+    color: white;
+}
+
+#rightnav .btn {
+    background-color:#17a2b8; 
+    font-size: 12pt;
+    color: white; 
+    border: 3px solid black; 
+    margin: 5px 5px 5px 0px;
+    padding: 3px 20px;
+    box-shadow: 3px 3px black;
+}
+
+/* Below navbar, now container */
+
+#container {
+    background-color: white;
+    padding: 0px;
+    margin: 10px auto;
+    border: none;  
+    width: 900px;
+    display: flex;
+}
+
+#main-content {
+    background-color: white;
+    padding: 0px;
+    margin: 10px auto;
+    border: none;  
+    flex: 2;
+}
+
+/* Left side of main-content starts  */
+
+.user-card {
+    margin: 10px; 
+}
+
+.card-header {
+    background-color: rgb(57, 152, 168); 
+    height: 70px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.profile-image {
+    position: relative; 
+    top: 40px;
+    left: 20px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+.map-marker {
+    width: 10px;
+}
+
+.gear {
+    width: 10px;
+}
+
+.card-body {
+    background-color: white;
+    height: 150px;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray; 
+    padding: 30px 0px 0px 10px;
+}
+
+a {
+    color: rgb(26, 106, 172);
+}
+
+.education {
+    margin: 10px; 
+}
+
+.education-header {
+    background-color: rgb(59, 59, 59); 
+    height: 30px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 15px 0px 10px 12px;
+}
+
+.education-header h3 {
+    color: white;
+}
+
+.education-body {
+    background-color: white;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray; 
+    padding: 10px;
+}
+
+.education-body h3 {
+    color: grey;
+}
+
+/* side-content begins */
+
+#side-content {
+    background-color: white;
+    flex: 1;
+    margin: 10px;
+
+}
+
+.avatar {
+    width: 35px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.avatar-two {
+    width: 35px;
+    border-radius: 50%;
+    border: 0px solid gray;
+}
+
+.sidebar {
+    margin: 10px; 
+}
+
+.sidebar-header {
+    background-color: rgb(59, 59, 59); 
+    height: 30px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 15px 15px 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar-header h2 {
+    background-color: rgb(194, 194, 194);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    color: black;
+    font-size: 12pt; 
+}
+
+.sidebar-header h3 {
+    color: white;
+}
+
+.sidebar-body {
+    background-color: white;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray; 
+    padding: 10px;
+}
+
+.request {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.connection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 120px;
+}
+
+.sidebar-body h3 {
+    color: grey;
+}
+
+.sidebar-more {
+    background-color: white;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray; 
+    padding: 10px;
+}
+
